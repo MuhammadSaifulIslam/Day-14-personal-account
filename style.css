@@ -12,7 +12,6 @@ body{
 .first-part{
 background-image: url(images/header-bg.png);
 background-repeat: no-repeat;
-border: solid red;
 }
 section{
     height: 800px;
@@ -36,10 +35,9 @@ section{
 .second-part{
     background-image: url(images/biography-bg.png);
     background-repeat: 0;
-    border: solid red;
 }
     .third-part{
-        border: solid red;
+          height: 500%;
     }
 .flot-third{
     float: left;
@@ -49,4 +47,21 @@ section{
 }
 #middle{
     text-align: center;
+}
+.hello-four{
+    text-align: center;
+}
+.hello-five{
+    text-align: center;
+    background-color: blueviolet;
+    height: 100px;
+    width: 700px;
+    padding: 2%;
+    margin-left: 20%;
+    border-radius: 2%;
+}
+footer{
+    text-align: center;
+     size: 10px;
+     color: dimgray;
 }
