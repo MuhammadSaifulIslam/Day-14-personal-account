@@ -54,14 +54,23 @@ section{
 .hello-five{
     text-align: center;
     background-color: blueviolet;
-    height: 100px;
-    width: 700px;
-    padding: 2%;
     margin-left: 20%;
-    border-radius: 2%;
+    margin-right: 20%;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
 }
 footer{
     text-align: center;
      size: 10px;
      color: dimgray;
+}
+img{
+    height: 10%;
+    width: 10%;
+    float:right;
+    transition:transform 4s;
+}
+img:hover{
+    transform: rotate(360deg);
 }
